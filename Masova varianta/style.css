@@ -66,6 +66,16 @@ body {
     background-position: center;
     background-size: cover;
     min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.recept-nazev {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 h2 {
@@ -94,6 +104,9 @@ h2 {
     border-bottom: white;
     border-style: solid;
     border-width: thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .recept3 {
@@ -102,6 +115,9 @@ h2 {
     border-bottom: white;
     border-style: solid;
     border-width: thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .recept4 {
@@ -112,6 +128,9 @@ h2 {
     border-bottom: white;
     border-style: solid;
     border-width: thin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .recept5 {
@@ -119,6 +138,9 @@ h2 {
     min-height: 90px;
     background-position: center;
     background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 @media (min-width: 480px) {
@@ -163,30 +185,26 @@ h2 {
 @media (min-width: 860px) {
     .hlavni-recept {
         min-height: 400px;
-        width: 100%;
-        display: inline-block;
+        width: 33%;
+    }
+    .recepty {
+        width: 66%;
     }
     .recept2 {
         min-height: 200px;
-        width: 50%;
-        display: inline-block;
     }
     .recept3 {
         min-height: 200px;
-        width: 50%;
-        display: inline-block;
     }
     .recept4 {
         min-height: 200px;
-        width: 50%;
-        display: inline-block;
     }
     .recept5 {
         min-height: 200px;
-        width: 50%;
-        display: inline-block;
     }
     .doporucujeme {
+        display: flex;
+        flex-direction: row;
         padding: 20px;
     }
     h2 {
